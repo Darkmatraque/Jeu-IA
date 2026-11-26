@@ -8,3 +8,6 @@ Actual fetched JS parsed; direct execution of engine and storage against in-memo
 Real browser playthrough, refresh/restart behavior in actual browser, fullscreen/audio behavior, UI accessibility, cross-browser/mobile compatibility, balance and campaign duration, long-term content, public deployment. No claim of 20+ hours. No official 1.0 release.
 ## Next concrete task
 Run browser smoke test, inspect actual map/menus and save after reload/import. Fix defects, then expand campaign objectives and meaningful decisions. Preserve save schema v1 or add tested migration before changes. Do not restart repository.
+
+## Endgame expansion
+Three restoration projects after beacon victory; ten achievements. Automatic legal-action run reached victory and completed all three projects on day 123. Actual human duration and browser play remain unverified.

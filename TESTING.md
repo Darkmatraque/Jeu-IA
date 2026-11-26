@@ -5,3 +5,6 @@ After fetching committed source, four JS modules were parsed with the Function c
 Node 20+: npm test. These files are provided, but the Node test runner itself has not yet been executed by this session.
 ## Browser checklist (pending)
 Serve with HTTP, start each difficulty, build/scout/research, reload and close/reopen browser, import valid/corrupt files, check backup, settings, both languages, keyboard, fullscreen, small screens and audio. Play full campaign before claiming duration.
+
+## Campaign simulation
+Seed 77: legal build, scout, research, contract and turn actions reached victory and completed all three restoration projects on day 123. Duplicate and premature project purchases rejected. State remained valid. This is a simulation, not human-duration validation.

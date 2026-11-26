@@ -1,7 +1,7 @@
 import {valid} from './engine.js';
 const prefix='echo-frontier:v1:';
 export const slots=[1,2,3];
-function decode(raw){if(!raw)return null;const s=JSON.parse(raw);if(!valid(s))throw Error('Invalid save');return s}
+function decode(raw){if(!raw)return null;const s=JSON.parse(raw);if(!valid(s))throw Error('Invalid save');s.projects??=[];return s}
 export function read(slot){for(const suffix of ['current','backup'])try{const s=decode(localStorage.getItem(prefix+slot+':'+suffix));if(s)return {state:s,recovered:suffix==='backup'}}catch{}return null}
 export function save(slot,s){if(!slots.includes(slot)||!valid(s))throw Error('Invalid save');const next={...s,saved:Date.now()},key=prefix+slot+':current',previous=localStorage.getItem(key);if(previous){let old;try{old=decode(previous)}catch{}if(old)localStorage.setItem(prefix+slot+':backup',previous)}localStorage.setItem(key,JSON.stringify(next));s.saved=next.saved;return next.saved}
 export function erase(slot){for(const suffix of ['current','backup'])localStorage.removeItem(prefix+slot+':'+suffix)}

@@ -10,3 +10,6 @@ Explore adjacent fog → survey ruins → establish connected production → man
 23×17 seeded map; 14 buildings, 4 weather types, 4 technology tiers, 3 difficulty settings, nine achievement conditions. Gold circles mark the three signal sites. Storms reduce power and damage metal; relay mitigates damage. Network connectivity and workers affect production. Roads and buildings transmit connectivity. Larger networks consume metal for maintenance.
 ## Long-term design (not implemented)
 Campaign chapters with new islands, competing factions, logistics capacity, expedition risk, technology branches, settlements with individual needs, hard tradeoffs, multi-objective scenarios and a substantial endgame. Aim for 20–50 hours through distinct choices, not waiting. No duration claim until playtests.
+
+## Restoration projects
+After beacon victory, build a survivors' haven, an independent power grid and a memory archive. Each demands sustained active beacons, distinct production/capacity goals and resource investment. Completing all three earns a final achievement; sandbox remains open.

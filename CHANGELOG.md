@@ -6,3 +6,4 @@
 - Three local save slots with backup, validation, import/export.
 - Distant beacon targets, guaranteed land paths, network maintenance.
 - Initial tests and documentation. No official release or confirmed live deployment.
+- Added three endgame restoration projects, tenth achievement, net upkeep display and an automated campaign completion test.
