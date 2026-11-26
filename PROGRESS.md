@@ -11,3 +11,5 @@ Run browser smoke test, inspect actual map/menus and save after reload/import. F
 
 ## Endgame expansion
 Three restoration projects after beacon victory; ten achievements. Automatic legal-action run reached victory and completed all three projects on day 123. Actual human duration and browser play remain unverified.
+
+Mock-DOM integration executed: new game, menu, selection, construction, turn, save, pause, language switching, continue, profile rename. CI workflow installed; run not yet reported. Actual browser and Pages pending.

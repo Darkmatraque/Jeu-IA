@@ -8,3 +8,6 @@ Serve with HTTP, start each difficulty, build/scout/research, reload and close/r
 
 ## Campaign simulation
 Seed 77: legal build, scout, research, contract and turn actions reached victory and completed all three restoration projects on day 123. Duplicate and premature project purchases rejected. State remained valid. This is a simulation, not human-duration validation.
+
+## Mock DOM integration
+Executed fetched UI module against mocked DOM, Canvas and storage APIs: menu, slot dialog, new game, map render code, pointer selection, build, turn/autosave, pause, language switch, continue and nickname change passed. This does not test visual rendering or real browser persistence.
