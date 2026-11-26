@@ -1,0 +1,2 @@
+# Architecture
+Static HTML/CSS and native ES modules. src/engine.js: deterministic generation and simulation, state validation, no DOM. src/storage.js: localStorage adapter, backup, JSON import/export and preferences. src/i18n.js: dictionary. src/ui.js: DOM and Canvas rendering, input, audio and menus. assets: original SVG. tests: Node built-in runner. Relative paths support subdirectory hosting. No paid service or runtime dependency.
