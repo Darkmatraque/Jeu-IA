@@ -1,2 +1,2 @@
 # Assets
-assets/icon.svg and assets/landscape.svg: original SVG created for this repository. Map symbols and shapes drawn procedurally with Canvas and system fonts. Interaction sound synthesized with Web Audio API. No downloaded assets, external fonts, paid libraries or third-party music. No general code distribution license granted. Commercial rights and title clearance should be reviewed before a commercial release.
+Original procedural canvas shapes, SVG icon and artwork, synthesized Web Audio effects, system fonts. No external assets or paid service. No general distribution license granted. Working title not trademark-cleared.

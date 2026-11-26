@@ -1,15 +1,2 @@
-# Development status
-Current version: 0.1.0 development build. Not 1.0.
-## Implemented (code present)
-Core map, buildings, connected production, exploration, research, weather, contracts, victory and continued sandbox; FR/EN; menus, profile name and statistics; local saves, backup, manual save, automatic save, import/export, validation; original SVG and synthesized interaction audio.
-## Verified
-Actual fetched JS parsed; direct execution of engine and storage against in-memory localStorage passed; 50 seeds checked for all three beacon sites being reachable over land; 100 turns remained valid. See TESTING.md.
-## Not verified / not complete
-Real browser playthrough, refresh/restart behavior in actual browser, fullscreen/audio behavior, UI accessibility, cross-browser/mobile compatibility, balance and campaign duration, long-term content, public deployment. No claim of 20+ hours. No official 1.0 release.
-## Next concrete task
-Run browser smoke test, inspect actual map/menus and save after reload/import. Fix defects, then expand campaign objectives and meaningful decisions. Preserve save schema v1 or add tested migration before changes. Do not restart repository.
-
-## Endgame expansion
-Three restoration projects after beacon victory; ten achievements. Automatic legal-action run reached victory and completed all three projects on day 123. Actual human duration and browser play remain unverified.
-
-Mock-DOM integration executed: new game, menu, selection, construction, turn, save, pause, language switching, continue, profile rename. CI workflow installed; run not yet reported. Actual browser and Pages pending.
+# Current status
+BLACKOUT COURIER 0.2.0 replaces ECHO FRONTIER, old history retained. Source has real-time combat, movement, manual/auto aim, dash, seven enemy types, 12 upgrades, three ships, three districts, hazards, 3 local profiles, FR/EN, persistent run and metaprogression. Automated simulation results: [{"sector":"city","wave":12,"phase":"extract","score":240375,"kills":635,"level":16,"hp":100,"time":401,"valid":true},{"sector":"reactor","wave":16,"phase":"extract","score":529050,"kills":1108,"level":18,"hp":163.20000000000002,"time":538,"valid":true},{"sector":"void","wave":20,"phase":"extract","score":1069400,"kills":1849,"level":22,"hp":135.40000000000003,"time":749,"valid":true}]. No actual browser rendering or duration/playtest verified. Next: browser smoke test, real save reload, fix UX, tune gameplay based on actual users. Pages publication not verified.

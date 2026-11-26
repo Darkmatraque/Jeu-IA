@@ -1,9 +1,2 @@
 # Changelog
-## 0.1.0 — development
-- Initialized project.
-- Seeded colony engine, technology, weather, population, trade, contracts, achievements.
-- Static bilingual interface with original SVG landscape and canvas tiles.
-- Three local save slots with backup, validation, import/export.
-- Distant beacon targets, guaranteed land paths, network maintenance.
-- Initial tests and documentation. No official release or confirmed live deployment.
-- Added three endgame restoration projects, tenth achievement, net upkeep display and an automated campaign completion test.
+0.2.0: replaced ECHO FRONTIER entirely with BLACKOUT COURIER. Old history retained. Real-time combat, randomized run upgrades, local persistence, extraction, permanent hangar, three districts and escalating guardians.
