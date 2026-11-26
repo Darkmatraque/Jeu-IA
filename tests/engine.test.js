@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {newGame,world,action,econ,valid,C} from '../src/engine.js';
+test('seed and validation',()=>{assert.deepEqual(world(42),world(42));assert.notDeepEqual(world(42),world(43));assert.ok(valid(newGame('Test',42)))});
+test('build and network',()=>{const s=newGame('Test',42);assert.equal(action(s,'build',{i:C+1,id:'mine'}),'ok');assert.equal(s.r.metal,55);assert.equal(action(s,'build',{i:C+1,id:'mine'}),'invalid');assert.ok(econ(s).net.has(C+1));assert.equal(action(s,'demolish',C+1),'ok')});
+test('50 turns, serialization, invalid import',()=>{const s=newGame('Test',7);for(let i=0;i<50;i++)assert.equal(action(s,'turn'),'ok');assert.ok(valid(JSON.parse(JSON.stringify(s))));assert.equal(s.day,51);assert.equal(valid({...s,r:{...s.r,food:-1}}),false)});
+test('research requires payment',()=>{const s=newGame('Test',7);assert.equal(action(s,'tech'),'poor');s.r.science=35;assert.equal(action(s,'tech'),'ok');assert.equal(s.tech,1);assert.equal(s.r.science,0)});
